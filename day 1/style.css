@@ -6,6 +6,10 @@ body {
      box-sizing: border-box;
      background-color: #3C3D37;
      color: #ECDFCC;
+     display: flex;
+     flex-direction: column;
+     max-width: 500px;
+     gap: 10px;
 }
 
 button {

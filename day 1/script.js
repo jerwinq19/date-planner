@@ -18,6 +18,8 @@ function simple() {
 const inputText = document.getElementById('movie-name')
 const movieList = document.getElementById('movie-list')
 
+document.getElementById('add').addEventListener('click', add_movie)
+
 function add_movie() {
      // create list
      const new_list = document.createElement('li')
@@ -36,3 +38,9 @@ function add_movie() {
      }
 }
 
+function randomColor(){
+     const dd = document.getElementById('text');
+
+     dd.style.color = "red";
+     dd.style.fontSize = '20px'
+}
