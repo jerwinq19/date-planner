@@ -26,6 +26,7 @@ function add_movie() {
 
      const test = document.createTextNode(list_value)
      // append the to the Un-orderd list
+     // input validation 
      if (list_value == "") {
           alert("You must put something...")
      } else {
