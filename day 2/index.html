@@ -7,47 +7,60 @@
      <link rel="stylesheet" href="../main.css">
 </head>
 <body>
-     <!-- 1. Changing Text Content -->
-     <div class="card">
-          <h1>Changing text content</h1>
-          <p id="myText">Hello world!</p>
+     <div class="grid-container">
+          <!-- 1. Changing Text Content -->
+          <div class="card">
+               <h1>Changing text content</h1>
+               <p id="myText">Hello world!</p>
 
-          <button id="chg-text">change text</button>
-     </div>
-     <!-- 2. toggle classes -->
-     <div class="card">
-          <h1>Toggle class</h1>
-          <p id="toggle-text">This text will be highlighted.</p>
-          <button id="toggle-high">Toggle Highlight</button>
-     </div>
-     <!-- 3. Create and Append Elements -->
-     <div class="card">
-          <h1>Create and Append Elements</h1>
-          <ul id="item-list">
-               <li>Item 1</li>
-               <li>Item 2</li>
-          </ul>
-          <button id="add-item">Add Item</button>
-     </div>
-     <!-- 4. Remove an Element -->
-     <div class="card">
-          <h1>Remove an Element</h1>
-          <ul>
-               <li>Item 1 <button class="remove-btn">Remove</button></li>
-               <li>Item 2 <button class="remove-btn">Remove</button></li>
-          </ul>
-     </div>
-     <!-- 5. Form Validation -->
-     <div class="card">
-          <h1>Form Validation</h1>
-          <form id="my-form">
-               <input type="text" id="name" placeholder="Enter your name" style="padding: 10px; margin-bottom:10px; "/>
-               <button type="submit">Submit</button>
-          </form>
-          <p id="error-message" style="color: red; display: none;">Name is required!</p>
-             
-     </div>
+               <button id="chg-text">change text</button>
+          </div>
+          <!-- 2. toggle classes -->
+          <div class="card">
+               <h1>Toggle class</h1>
+               <p id="toggle-text">This text will be highlighted.</p>
+               <button id="toggle-high">Toggle Highlight</button>
+          </div>
+          <!-- 3. Create and Append Elements -->
+          <div class="card">
+               <h1>Create and Append Elements</h1>
+               <ul id="item-list">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+               </ul>
+               <button id="add-item">Add Item</button>
+          </div>
+          <!-- 4. Remove an Element -->
+          <div class="card">
+               <h1>Remove an Element</h1>
+               <ul>
+                    <li>Item 1 <button class="remove-btn">Remove</button></li>
+                    <li>Item 2 <button class="remove-btn">Remove</button></li>
+               </ul>
+          </div>
+          <!-- 5. Form Validation -->
+          <div class="card">
+               <h1>Form Validation</h1>
+               <form id="my-form">
+                    <input type="text" id="name" placeholder="Enter your name" style="padding: 10px; margin-bottom:10px; "/>
+                    <button type="submit">Submit</button>
+               </form>
+               <p id="error-message" style="color: red; display: none;">Name is required!</p>
+          </div>
+          <!-- 5. Form Validation -->
+          <div class="card">
+               <h1 style="text-align: center;">Ganda po ng crush ko!!!</h1>
+               <img id="main-image" src="/day 2/1.jpg" alt="Main Image" />
+               <div id="thumbnails">
+                    <img src="../day 2/1.jpg"alt="Thumbnail 1" />
+                    <img src="../day 2/2.jpg" alt="Thumbnail 2" />
+                    <img src="../day 2/3.jpg" alt="Thumbnail 3" />
+                    <img src="../day 2/4.jpg" alt="Thumbnail 3" />
+                    <img src="../day 2/5.jpg" alt="Thumbnail 3" />
+               </div>
+          </div>
 
+     </div>
      <script src="/day 2/script.js"></script>
 </body>
 </html>

@@ -51,6 +51,18 @@ function formValidation(event) {
      } else {
           console.log("continue")
           document.getElementById("error-message").style.display = "none"
+          text = ""
      }
      event.preventDefault()
-}    
+}
+
+// change the image via click
+document.getElementById("thumbnails").addEventListener('click', changeIMG)
+
+function changeIMG(event) {
+     const main_img = document.getElementById("main-image")
+
+     if (event.target.tagName === "IMG") {
+          main_img.src = event.target.src;
+     }
+}
